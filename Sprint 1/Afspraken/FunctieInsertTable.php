@@ -1,15 +1,6 @@
-<html>
-<head>
-    <title>Hallo</title>
-</head>
-<body>
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "vuurwerk";
-
+include 'DatabaseInlog.php';
 
     try {
         $db = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -34,24 +25,3 @@ $dbname = "vuurwerk";
         die("Error!: " . $e->getMessage());
     }
 ?>
-
-<form method="post" action="">
-    <label>Voornaam</label>
-    <input type="text" name="voornaam"><br>
-
-    <label>Achternaam</label>
-    <input type="text" name="achternaam"><br>
-
-    <label>Afspraak</label>
-    <input type="text" name="afspraak"><br>
-
-    <label>Tijd</label>
-    <input type="text" name="tijd"><br>
-
-    <input type="submit" name="verzenden" value="opslaan">
-</form>
-<br>
-<br>
-<a href="TabelPrinten.php">Klik hier om naar de tabel te gaan.</a>
-</body>
-</html>

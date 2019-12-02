@@ -18,7 +18,7 @@ CreateDatabase('vuurwerk');
 CreateTable('afspraken');
 
 ?>
-<a href="FunctieInsertTable.php">Klik hier om een afspraak toe te voegen en naar de afspraken tabel te gaan.</a>
+<a href="TabelPrinten.php">Klik hier om een afspraak toe te voegen en naar de afspraken tabel te gaan.</a>
 </body>
 </html>
 

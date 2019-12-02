@@ -10,12 +10,31 @@
     </style>
     <title>Afspraken tabel</title>
 </head>
+<body>
+<?php
+    include 'FunctieInsertTable.php'
+?>
+<form method="post" action="">
+    <label>Voornaam</label>
+    <input type="text" name="voornaam"><br>
+
+    <label>Achternaam</label>
+    <input type="text" name="achternaam"><br>
+
+    <label>Afspraak</label>
+    <input type="text" name="afspraak"><br>
+
+    <label>Tijd</label>
+    <input type="text" name="tijd"><br>
+
+    <input type="submit" name="verzenden" value="opslaan">
+</form>
+<br>
+<br>
+
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "vuurwerk";
+include 'DatabaseInlog.php';
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -30,7 +49,7 @@ catch(PDOException $e)
 $sql = "SELECT * FROM afspraken";
 $result = $conn->query($sql);
 ?>
-<body>
+
 <table>
     <tr>
         <th>Voornaam</th>

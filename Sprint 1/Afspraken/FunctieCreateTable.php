@@ -3,10 +3,7 @@
 function CreateTable($tablenaam)
 {
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "vuurwerk";
+    include 'DatabaseInlog.php';
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
