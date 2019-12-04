@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 43.3px;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+body {
+    background-image: url('vuurwerk2.jpg');
+    background-size: 100%;
+}
+.container{
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aanbieding{
+    width: 1070px;
+    height: 55px;
+    background-color: #292929;
+    color: #ffdb00;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+.content1 {
+    width: 260px;
+    height: 300px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    font-size: 120%;
+}
+.content1 img{
+    margin-top: 5px;
+}
+.content1 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.content1 hr{
+    width: 200px;
+}
+.content2 {
+    width: 260px;
+    height: 300px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 120%;
+    float: left;
+    margin-left: 10px;
+}
+.content2 img{
+    margin-top: 5px;
+}
+.content2 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.content2 hr{
+    width: 200px;
+}
+.content3 {
+    width: 260px;
+    height: 300px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 120%;
+    float: left;
+}
+.content3 img{
+    margin-top: 5px;
+}
+.content3 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.content3 hr{
+    width: 200px;
+}
+s{
+    color: #970001;
+    text-decoration: line-through;
+}
+.active{
+    background-color: #00bf00;
+}
