@@ -1,3 +1,8 @@
+body {
+    background-image: url('background.jpg');
+    background-size: 100%;
+    margin: 0px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,10 +31,6 @@ a {
 }
 li a:hover {
     background-color: #111;
-}
-body {
-    background-image: url('vuurwerk2.jpg');
-    background-size: 100%;
 }
 .container{
     width: 1070px;
